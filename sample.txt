@@ -1,5 +1,12 @@
-program program1 {
-var Sel: string;
-    N1,N2, Total : real;
+program hello {
+ const test1 = 5;
+
+ main {
+   hehe = 2;
+ }
+
+//komentarz 1
+/* blabla 
+kkakakak */
 
 }
