@@ -1,12 +1,43 @@
 program hello {
- const test1 = 5;
+const  
+	test1 = 5;
+	test2 = 10;
+var
+	a,b,x, size: int;
+	c: double;
+	d: char;
+	
+/* end of definitions */
+	
+main {
+	 a = 1;
+  size = 10;
+	 x = a + 1 - 2 * (4 / 10) + 3 % 2 + (3 div 2);
+	 for i = 1 to size {
+		  a = a + 1;
+	 };
+	 if (a != 10) {
+		  for i = 10 downto 4 {
+			   a = a + 1;
+		  };
+ 	};
+	 if (a > 10 && b < 20 || c >= 10 && d == 1 && e != 3 && c != null){
+		  arr = 10;
+	 } else {
+		  b = 10;
+	 };
 
- main {
-   hehe = 2;
- }
+	 while (a != 10) {
+		  a = a + 1;
+	 }
+}
 
-//komentarz 1
-/* blabla 
-kkakakak */
+// comment
+/* comment
+   multiple lines
+*/
 
 }
+
+
+
